@@ -1,6 +1,0 @@
-import smtplib as sm
-msg="Unfortunately, the container has been stopped working!!\nHowever, it has been started once again."
-server=sm.SMTP_SSL("smtp.gmail.com", 465)
-server.login("ankiitk90@gmail.com","qwertyuiop")
-server.sendmail("ankiitk90@gmail.com","ankiitk90@gmail.com", msg)
-server.quit()
